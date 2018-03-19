@@ -78,7 +78,7 @@ strong{
 }
 
 .headshot{
-  width: 200px;
+  width: 25%;
   margin: 30px auto;
   border-radius: 50%;
 }
@@ -115,20 +115,22 @@ strong{
 
 .screen-shots{
   text-align: center;
-  margin: 50px 0px;
+  margin: 30px 0px;
 }
 
 .app-pic1 {
   width: 100%;
   margin: 10px;
-  box-shadow: 2px 2px 5px #111111;
+  /* box-shadow: 2px 2px 5px #111111; */
 }
 
-.app-pic2 {
-  width: 90%;
+/* .app-pic2 {
+  position: relative;
+  width: 50%;
   margin: 10px;
+  /* margin: 10px;
   box-shadow: 2px 2px 5px #111111;
-}
+}*/
 
 .contact-section{
   background: gray;
