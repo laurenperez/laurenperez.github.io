@@ -3,14 +3,26 @@ body {
   padding: 0px;
   background-color: #1b1b18;
   color: #dbdbd6;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Poiret One', cursive;
+html {
+  scroll-behavior: smooth;
 }
 
-div{
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poiret One", cursive;
+}
+
+.intro-section {
+  min-height: 100vh;
+}
+
+div {
   margin: 0;
   padding: 0px;
 }
@@ -30,19 +42,19 @@ i {
   margin: 10px;
 }
 
-strong{
+strong {
   font-weight: 700;
   color: #996600;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-size: 18px;
 }
 
-.intro-section{
+.intro-section {
   margin-top: 5px;
   background: #1b1b18;
 }
 
-.hello-banner{
+.hello-banner {
   background-color: #1b1b18;
   text-align: center;
 }
@@ -54,21 +66,21 @@ strong{
   background-color: #996600;
   text-align: center;
   line-height: 125px;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-size: 22px;
-  transition: color .2s ease, background-color .2s ease-in;
+  transition: color 0.2s ease, background-color 0.2s ease-in;
 }
 
-.bubble:hover{
+.bubble:hover {
   background-color: #dbdbd6;
-  color: #996600
+  color: #996600;
 }
 
-.about-section{
+.about-section {
   background: #1b1b18;
 }
 
-.about-left{
+.about-left {
   border-right: 1px solid gray;
 }
 
@@ -77,7 +89,7 @@ strong{
   margin: 40px auto;
 }
 
-.headshot{
+.headshot {
   width: 25%;
   margin: 30px auto;
   border-radius: 50%;
@@ -95,25 +107,25 @@ strong{
   padding: 0px 10px;
   border-right: 1px solid #dbdbd6;
   color: #996600;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 .color-space {
-  background-color: #1b1b18
+  background-color: #1b1b18;
 }
 
 .habitrack {
-  background-color: #1b1b18
+  background-color: #1b1b18;
 }
 
-.project-links{
-  font-family: 'Poiret One', cursive;
+.project-links {
+  font-family: "Poiret One", cursive;
   font-size: 18px;
   color: #996600;
   font-weight: 700;
 }
 
-.screen-shots{
+.screen-shots {
   text-align: center;
   margin: 30px 0px;
 }
@@ -123,7 +135,7 @@ strong{
   margin: 10px;
 }
 
-.contact-section{
+.contact-section {
   background: gray;
   height: 500px;
 }
@@ -140,61 +152,7 @@ strong{
   background-color: #373737;
 }
 
-
-.spacer{
+.spacer {
   height: 20px;
-  width: 100%
-}
-
-/*Canvas Stuff*/
-
-.blur {
-	width: 50%;
-	height: 50%;
-	background: #373737;
-	background-size: cover;
-	background-position: center center;
-	position: absolute;
-	top: 0;
-	left: 0;
-	transform-origin: 1% 1%;
-	-webkit-transform-origin: 1% 1%;
-	-moz-transform-origin: 1% 1%;
-	-o-transform-origin: 1% 1%;
-	-ms-transform-origin: 1% 1%;
-	transform: scale(2.1);
-	-webkit-transform: scale(2.1);
-	-moz-transform: scale(2.1);
-	-o-transform: scale(2.1);
-	-ms-transform: scale(2.1);
-	background-size: cover;
-	-webkit-filter: blur(2px);
-	-moz-filter: blur(2px);
-	-o-filter: blur(2px);
-	filter: blur(2px);
-	z-index: 2;
-}
-
-.mask {
-	width: 100%;
-	height: 100%;
-	/*background: #000;*/
-	opacity: 0.5;
-	position: absolute;
-	top: 0;
-	left: 0;
-  z-index: 3;
-}
-
-#my-canvas {
-	z-index: 4;
-  width:100%;
-  height: 600px;
-	/*margin:  50px;*/
-	/*border: 2px solid red;*/
-}
-
-#hello {
-  transform: translate(0px, 200px);
-  z-index: 10;
+  width: 100%;
 }
